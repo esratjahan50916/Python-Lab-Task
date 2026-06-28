@@ -31,7 +31,6 @@ print("List    :", numbers)
 print("Maximum :", max)
 print("Minimum :", min)
 
-
 #Problem 4
 
 numbers = [10, 25, 38, 49, 56, 72, 89]
@@ -73,3 +72,17 @@ for item in original:
 
 print("Original:", original)
 print("List without duplicates:", newlist)
+
+#problem 7
+
+myList = ['aca', 'xyz', 'aba', '1221']
+
+count = 0
+
+for word in myList:
+    if len(word) >= 2:                  
+        if word[0] == word[-1]:          
+            count = count + 1
+
+print("Sample List :", myList)
+print("Count       :", count)
