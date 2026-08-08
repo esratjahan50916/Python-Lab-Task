@@ -1,0 +1,2 @@
+This line was written using write mode.
+This line was added using append mode.
