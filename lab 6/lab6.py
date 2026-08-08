@@ -27,8 +27,6 @@ class BankAccount:
         print("Date of Opening:", self.date_of_opening)
         print("Balance        :", self.balance)
 
-
-print("Problem 1")
 account1 = BankAccount("23-50916-1", "Esrat Jahan", 5000, "2026-08-08")
 account1.check_balance()
 print()
